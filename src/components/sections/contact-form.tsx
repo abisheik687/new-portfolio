@@ -19,7 +19,8 @@ import { Loader2, Send } from "lucide-react";
 import React from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../ui/card";
 import { SectionWrapper } from "@/components/common/section-wrapper";
-import { submitContactForm, contactFormSchema, type ContactFormValues } from "@/app/actions/contact-actions";
+import { submitContactForm } from "@/app/actions/contact-actions";
+import { contactFormSchema, type ContactFormValues } from "@/lib/form-schemas";
 
 
 export function ContactForm() {
