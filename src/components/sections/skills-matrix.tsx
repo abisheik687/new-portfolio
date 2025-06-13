@@ -38,9 +38,6 @@ export function SkillsMatrix() {
           </Card>
         ))}
       </div>
-      <p className="mt-12 text-center text-muted-foreground italic">
-        Note: This is a simplified skills matrix. For a more interactive experience, consider 3D visualizations or radial maps.
-      </p>
     </SectionWrapper>
   );
 }
