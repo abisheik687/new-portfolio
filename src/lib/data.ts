@@ -1,3 +1,4 @@
+
 import type { LucideIcon } from 'lucide-react';
 import { Briefcase, GraduationCap, Zap, Code, Cloud, GitBranch, Brain, ShieldCheck, Cpu, Bot, Layers, MessageCircle, Database, Settings, BarChart, GanttChartSquare, UserCircle, Mail, Smartphone } from 'lucide-react';
 
@@ -53,9 +54,9 @@ export const timelineEvents: TimelineEvent[] = [
   {
     id: 'education-1',
     icon: GraduationCap,
-    date: '2020 - 2024 (Expected)',
-    title: 'B.Tech in Computer Science',
-    description: 'Vellore Institute of Technology, Vellore. Specializing in AI and Full Stack Development.',
+    date: 'Dec 2022 - Present',
+    title: 'B.TECH IT',
+    description: 'Mailam Engineering College, Villupuram. Currently pursuing with a GPA of 8.1.',
     category: 'education',
   },
 ];
@@ -191,3 +192,4 @@ export const socialLinks = [
   { name: 'LinkedIn', url: 'https://linkedin.com/in/abisheiks', icon: Briefcase },
   { name: 'Email', url: 'mailto:youremail@example.com', icon: Mail },
 ];
+
