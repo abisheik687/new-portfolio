@@ -34,7 +34,7 @@ export function AboutSection() {
               </CardHeader>
               <CardContent>
                 <p className="text-foreground italic text-md">
-                  “I’m a diamond in the rough—ambitious, adaptable, and future-ready. Always eager to explore new technologies and contribute to impactful projects.”
+                "I architect intelligent systems that solve problems with precision — but I never stop iterating, because my greatest strength is knowing that perfection is a moving target. I embrace my gaps as growth zones, and my code reflects both resilience and reinvention."
                 </p>
               </CardContent>
             </Card>
