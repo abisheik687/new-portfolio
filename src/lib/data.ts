@@ -106,7 +106,7 @@ export const projects: Project[] = [
     title: 'Advanced NLP Chatbot',
     shortDescription: 'Optimized a conversational AI for enhanced user interaction and accuracy.',
     codePreview: 'class Chatbot:\\n  def __init__(self, model_name):\\n    self.model = load_model(model_name)\\n\\n  def respond(self, query):\\n    # Advanced NLP processing\\n    return self.model.predict(query)',
-    imageUrl: 'https://placehold.co/600x400.png?text=NLP+Chatbot',
+    imageUrl: 'https://placehold.co/600x400.png', // Updated this line
     livePreviewUrl: '#',
     githubUrl: '#',
     tags: ['Python', 'NLP', 'AI', 'Chatbot'],
