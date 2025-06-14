@@ -32,7 +32,7 @@ This project is a hyper-realistic developer portfolio for Abisheik S, showcasing
 *   **AI Integration:** Genkit (with Google AI models like Gemini)
 *   **Language:** TypeScript
 *   **Form Handling:** React Hook Form with Zod for validation
-*   **Deployment (assumed):** Firebase App Hosting (based on `apphosting.yaml`)
+
 
 ## Getting Started
 
