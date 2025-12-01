@@ -1,0 +1,86 @@
+ABISHEIK S
+Villupuram | +91 6382370094 | abisheik172@gmail.com
+GitHub: https://github.com/abisheik687
+LinkedIn: https://www.linkedin.com/in/abisheiks/
+Portfolio: https://studio-kappa-brown.vercel.app/
+
+Education
+- Mailam Engineering College, Anna University
+  Bachelor of Technology in Information Technology; GPA: 8.30
+  Villupuram, India | Dec 2022 – Present
+- Amalorpavam Hr Sec School
+  SSLC & HSC in TamilNadu State Board; Percentage: 80.2(SSLC) & 74.3(HSC)
+  Puducherry, India | Aug 2008 – May 2022
+
+Professional Experience
+- 1M1B (One Million for One Billion) Foundation | Green Intern (Sustainability & Tech Track)
+  India | Aug 2025 - Oct 2025
+  * Contributed to sustainability-focused technology initiatives under the UN-backed 1M1B Future Leaders program.
+  * Participated in research and project activities related to environmental awareness, digital solutions, and community impact.
+  * Worked on problem statements involving SDGs (Sustainable Development Goals), analyzing real-world environmental challenges.
+  * Developed presentations, project proposals, and tech-enabled mitigation ideas to support green innovation.
+
+- Seyfert Infotech | Web Development Intern
+  Puducherry, India | Jan 2025 - Feb 2025
+  * Developed responsive and mobile-friendly websites using HTML5, CSS, Javascript and Bootstrap.
+  * Participated in regular code reviews and stand-up meetings, improving code quality and communication skills.
+
+- Shell (AICTE) | Chatbot and NLP Developer Intern
+  Remote, India | Dec 2024 – Jan 2025
+  * Collected and analyzed user intent data to enhance chatbot intelligence.
+  * Integrated Natural Language Processing (NLP) techniques to improve chatbot response accuracy.
+
+- VEI Technologies | Full-Stack & IoT Development Intern
+  India | Sept 2024 - Nov 2024
+  * Built full-stack applications integrating frontend, backend, databases, and APIs.
+  * Worked on IoT device integration, sensor communication, and real-time data handling.
+  * Created dashboards and data visualization components for IoT outputs.
+  * Gained practical experience in development workflows, version control, and deployment techniques.
+  * Collaborated in team-based mini-projects following structured engineering practices.
+
+- Indian Institute of Technology (IIT) Delhi | Campus Ambassador (Digital Marketing) Intern
+  Delhi(Hybrid), India | Dec 2023 – Feb 2024
+  * Promoted IIT Delhi’s tech events through targeted marketing campaigns.
+  * Managed and optimized multiple digital accounts across social media platforms.
+
+Technical Projects
+- IntelliFix: AI Code Debugger with LLM Fix Suggestions. Highest technical depth. Automated debugging using LLMs to analyze error logs and suggest code fixes. Tech: Python, React, OpenAI API, Node.js.
+- TalentAlign AI: AI/NLP System for hiring. Demonstrates hiring-grade system. An NLP-powered system to semantically match resumes with job requirements. Tech: Python, NLP, React, FastAPI.
+- Satellite Feature Detection: ML/CV project showing ML capability. Deep learning models to automatically detect features in satellite images. Tech: Python, TensorFlow, OpenCV.
+- StackIt Q&A: A Minimal Q&A Forum Platform. Real-world architecture. A scalable full-stack Q&A platform with real-time updates. Tech: Next.js, Node.js, PostgreSQL.
+- Portfolio Website: UI/Frontend proof of Web Dev skills. A modern, responsive portfolio website built with Next.js. Tech: Next.js, Tailwind CSS, Framer Motion.
+- Genalyze-AI: AI + Analytics. Great supporting project. AI-driven analytics tool to generate actionable insights from data. Tech: Python, Pandas, Scikit-learn.
+
+Technical Skills
+- Programming: Python, C, Java
+- Web Development: HTML5, CSS, Bootstrap, React.js, Next.js, Tailwind CSS
+- Cloud: AWS, Google Cloud
+- Tools: Git/Github, API, Docker, Wordpress
+- AI Productivity: ChatGPT, Gemini, Perplexity, Manus AI
+
+Soft Skills
+- Problem Solving & Analytical Thinking
+- Collaboration & Teamwork
+- Time Management & Prioritization
+- Adaptability and Continuous Learning
+- Effective Communication
+
+Certifications
+- Oracle Cloud Infrastructure Foundations / AI Associate
+- ISRO Geospatial Analysis Using Real-World Data – Indian Space Research Organisation
+- HTML5 Application Development - Pearson VUE, Certiport
+- TCS iON Career Edge - Young Professional by TCS iON
+- AWS Cloud Practitioner Essentials - Certification and Training by AWS
+- Palo Alto Networks Cybersecurity Foundation by Coursera
+- FullStack and IOT Development - Mailam Engineering College & VEI Technologies
+- Workshops: IOT Workshop, Acharia arts and science college | Flutter App Development, Techobytes
+
+Achievements
+- NXTware X OpenAI hackathon state level finalist
+- Top 12,000 in TCS CodeVita Round 1 (out of 6 lakh participants)
+- Completed 11 ICT Learnathon Courses covering AI, Cloud and emerging Technologies
+- Achieved Ultimate Champion Milestone in Google Cloud Arcade
+- Participated in ISRO BIH Hackathon 2025 (Geospatial Analysis)
+- Participated in Smart India Hackathon(2024) & Xylem Hackathon(2023)
+- Attended the Ethical Tech Submit by Shaastra 2024 at IIT Madras
+- Member of Google Developer Student Club (GDSC)

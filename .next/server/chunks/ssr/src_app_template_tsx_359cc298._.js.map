@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Abisheik/new%20portfolio/new-portfolio/src/app/template.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport { motion } from \"framer-motion\";\r\n\r\nexport default function Template({ children }: { children: React.ReactNode }) {\r\n    return (\r\n        <motion.div\r\n            initial={{ opacity: 0, y: 12 }}\r\n            animate={{ opacity: 1, y: 0 }}\r\n            transition={{ duration: 0.3, ease: \"easeOut\" }}\r\n        >\r\n            {children}\r\n        </motion.div>\r\n    );\r\n}\r\n"],"names":[],"mappings":";;;;AAEA;AAFA;;;AAIe,SAAS,SAAS,EAAE,QAAQ,EAAiC;IACxE,qBACI,8OAAC,0LAAA,CAAA,SAAM,CAAC,GAAG;QACP,SAAS;YAAE,SAAS;YAAG,GAAG;QAAG;QAC7B,SAAS;YAAE,SAAS;YAAG,GAAG;QAAE;QAC5B,YAAY;YAAE,UAAU;YAAK,MAAM;QAAU;kBAE5C;;;;;;AAGb","debugId":null}}]
+}

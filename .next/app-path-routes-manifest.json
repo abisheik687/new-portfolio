@@ -1,0 +1,10 @@
+{
+  "/api/chat/query/route": "/api/chat/query",
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/certifications/page": "/certifications",
+  "/about/page": "/about",
+  "/education/page": "/education",
+  "/experience/page": "/experience",
+  "/page": "/"
+}

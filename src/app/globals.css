@@ -2,101 +2,99 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply font-body;
-}
-
 @layer base {
   :root {
-    --background: 0 0% 98%; /* Light Background */
-    --foreground: 240 10% 3.9%; /* Dark Foreground */
+    /* Motion Tokens */
+    --motion-fast: 160ms;
+    --motion-medium: 320ms;
+    --motion-slow: 640ms;
+    --motion-ease: cubic-bezier(.2, .9, .3, 1);
+    --motion-pop: cubic-bezier(.175, .885, .32, 1.275);
+    --stagger: 0.08s;
 
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
+    /* Editorial Palette - Light Mode (Warm Editorial) */
+    --bg-0: 36 33% 97%;
+    /* #F9F7F3 - Warm Off-White */
+    --bg-1: 36 20% 94%;
+    /* Slightly darker warm gray */
+    --fg-0: 220 10% 10%;
+    /* Deep Charcoal */
+    --fg-1: 220 10% 25%;
+    /* Soft Charcoal */
+    --accent-0: 24 85% 55%;
+    /* Burnt Orange */
+    --accent-1: 24 70% 65%;
+    /* Soft Orange */
+    --muted: 36 10% 60%;
+    --success: 150 60% 40%;
+    --border: 36 10% 85%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
-
-    --primary: 266 100% 50%; /* Electric Indigo */
-    --primary-foreground: 0 0% 100%; /* White for text on primary */
-
-    --secondary: 240 4.8% 95.9%;
-    --secondary-foreground: 240 5.9% 10%;
-
-    --muted: 240 4.8% 95.9%;
-    --muted-foreground: 240 3.8% 46.1%;
-
-    --accent: 180 100% 50%; /* Bright Cyan */
-    --accent-foreground: 240 5.9% 10%; /* Dark text on accent */
-
+    /* Mapping to Tailwind/Shadcn standard vars for compatibility */
+    --background: var(--bg-0);
+    --foreground: var(--fg-0);
+    --card: var(--bg-0);
+    --card-foreground: var(--fg-0);
+    --popover: var(--bg-0);
+    --popover-foreground: var(--fg-0);
+    --primary: var(--accent-0);
+    --primary-foreground: 0 0% 100%;
+    --secondary: var(--bg-1);
+    --secondary-foreground: var(--fg-0);
+    --muted-foreground: var(--muted);
+    --accent: var(--accent-0);
+    --accent-foreground: 0 0% 100%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
-    --ring: 266 100% 50%; /* Electric Indigo for focus rings */
-
+    --input: var(--border);
+    --ring: var(--accent-0);
     --radius: 0.5rem;
-
-    --chart-1: 12 76% 61%;
-    --chart-2: 173 58% 39%;
-    --chart-3: 197 37% 24%;
-    --chart-4: 43 74% 66%;
-    --chart-5: 27 87% 67%;
-
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
   .dark {
-    --background: 240 10% 10%; /* Dark Background */
-    --foreground: 0 0% 88%; /* Light Gray Foreground (#E0E0E0) */
+    /* Editorial Palette - Dark Mode (Sophisticated Dark) */
+    --bg-0: 220 15% 10%;
+    /* #16181D - Deep Charcoal */
+    --bg-1: 220 15% 14%;
+    /* Lighter Charcoal */
+    --fg-0: 36 33% 97%;
+    /* Warm Off-White */
+    --fg-1: 36 20% 85%;
+    /* Muted Off-White */
+    --accent-0: 24 85% 60%;
+    /* Vibrant Burnt Orange */
+    --accent-1: 24 70% 70%;
+    /* Soft Orange */
+    --muted: 220 10% 50%;
+    --success: 150 60% 50%;
+    --border: 220 15% 20%;
 
-    --card: 240 10% 12%;
-    --card-foreground: 0 0% 88%;
-
-    --popover: 240 10% 12%;
-    --popover-foreground: 0 0% 88%;
-
-    --primary: 266 100% 50%; /* Electric Indigo */
-    --primary-foreground: 0 0% 100%; /* White for text on primary */
-
-    --secondary: 240 3.7% 15.9%;
-    --secondary-foreground: 0 0% 98%;
-
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 0 0% 63.9%;
-
-    --accent: 180 100% 50%; /* Bright Cyan */
-    --accent-foreground: 240 10% 3.9%; /* Dark text on accent */
-
+    /* Mapping */
+    --background: var(--bg-0);
+    --foreground: var(--fg-0);
+    --card: var(--bg-1);
+    --card-foreground: var(--fg-0);
+    --popover: var(--bg-1);
+    --popover-foreground: var(--fg-0);
+    --primary: var(--accent-0);
+    --primary-foreground: 0 0% 100%;
+    --secondary: var(--bg-1);
+    --secondary-foreground: var(--fg-0);
+    --muted-foreground: var(--muted);
+    --accent: var(--accent-0);
+    --accent-foreground: 0 0% 100%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
+    --input: var(--border);
+    --ring: var(--accent-0);
+  }
 
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 266 100% 50%; /* Electric Indigo for focus rings */
-
-    --chart-1: 220 70% 50%;
-    --chart-2: 160 60% 45%;
-    --chart-3: 30 80% 55%;
-    --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%;
-
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+  @media (prefers-reduced-motion: reduce) {
+    :root {
+      --motion-fast: 0ms;
+      --motion-medium: 0ms;
+      --motion-slow: 0ms;
+      --stagger: 0s;
+    }
   }
 }
 
@@ -104,44 +102,34 @@ body {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
-    scroll-behavior: smooth;
-  }
-  section {
-    @apply py-16 md:py-24;
   }
 }
 
-/* Basic particle animation placeholder */
-.particle-bg {
-  position: relative;
-  overflow: hidden;
-}
-
-.particle-bg::before {
-  content: '';
-  position: absolute;
+/* Global Noise Texture - Subtle Grain */
+body::before {
+  content: "";
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background:
-    radial-gradient(circle at 20% 20%, hsl(var(--accent) / 0.1), transparent 40%),
-    radial-gradient(circle at 80% 30%, hsl(var(--primary) / 0.1), transparent 40%),
-    radial-gradient(circle at 30% 70%, hsl(var(--accent) / 0.05), transparent 30%),
-    radial-gradient(circle at 70% 80%, hsl(var(--primary) / 0.05), transparent 30%);
-  animation: pulseParticles 20s infinite ease-in-out;
-  z-index: -1;
+  pointer-events: none;
+  z-index: 50;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.04'/%3E%3C/svg%3E");
+  opacity: 0.5;
+  mix-blend-mode: overlay;
 }
 
-@keyframes pulseParticles {
-  0%, 100% {
-    opacity: 0.7;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 1;
-    transform: scale(1.05);
-  }
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection Color */
+::selection {
+  background-color: hsl(var(--accent-0));
+  color: white;
 }
